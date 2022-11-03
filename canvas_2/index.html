@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div id="app-container">
+		<img id="background-image" src="placeholder1.jpg" />
+		<div id="btn-1" onclick="changeBackgroundImage(event)" onmouseover="changeBackgroundImage(event)" class="bottom-left">LAUNDRY MAT</div>
+		<div id="btn-2" onclick="changeBackgroundImage(event)" onmouseover="changeBackgroundImage(event)" class="top-left">FIND & LOCATE</div>
+		<div id="btn-3" onclick="changeBackgroundImage(event)" onmouseover="changeBackgroundImage(event)" class="top-right">YOUR CLOSEST</div>
+		<div id="btn-4" onclick="changeBackgroundImage(event)" onmouseover="changeBackgroundImage(event)" class="bottom-right">TO YOU</div>
+		<!-- <div id="btn-5" onclick="changeBackgroundImage(event)" onmouseover="changeBackgroundImage(event)" class="centered">TO YOU</div> -->
+	</div>
+
+	<button onclick="window.print()"> Print </button>
+
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/addons/p5.sound.min.js"></script>
+	<script type="text/javascript" src="sketch.js"></script>
+</body>
+
+</html>
